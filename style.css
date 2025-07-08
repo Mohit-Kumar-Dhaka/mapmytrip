@@ -1,0 +1,235 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: border-box;
+    
+}
+
+#body,html{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#mainvideo{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+#navbar{
+    height: 100%;
+    width: 100%;
+    color: black;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+#nav1{
+    position: relative;
+    left: 25px;
+}
+
+
+#merabharat1{
+    text-decoration: none;
+    color:darkblue;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#nav2{
+    height: 10vh;
+    width: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+
+}
+
+.nav211{
+       text-decoration: none;
+       color: black;
+       font-weight: bold;
+       font-size: 20px;
+    }
+
+    #content{
+        height: auto;
+        width: 100%;
+        z-index: 2;
+        position: absolute;
+        top: 45%;
+        text-align: center;
+        color: black;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    
+    #rajasthan{
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    #colorrajasthan{
+        color: blue;
+    }
+
+    #visit{
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+
+    #enough{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    #twobuttons{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        left: 40.5%;
+    }
+
+    #learnmore{
+        height: 35px;
+        width: 155px;
+        margin-right: 5px;
+        transition: 2s , ease-in-out , 1s;
+    }
+
+    #signuphere{
+        height: 35px;
+        width: 155px;
+        margin-left: 5px;
+        transition: 2s , ease-in-out , 1s;
+    }
+
+    #signuphere1{
+        text-decoration: none;
+            color: black;
+    }
+
+    #learnmore:hover{
+        background-color: greenyellow;
+        transform: scale(1.1);
+    }
+
+    #signuphere:hover{
+        background-color: greenyellow;
+        transform: scale(1.1);
+    }
+
+    /* Signup Page coding starts */
+
+    body,html{
+        background-image: url("naturesphotofullsize.jpg");
+    background-repeat: no-repeat;
+    
+    }
+    #firstmain{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        overflow: hidden;
+    }
+    
+
+    #main{
+        height: auto;
+        width: 100vd;
+        text-align: center;
+        position: absolute;
+        top: 25%;
+        left: 40%;
+    }
+
+    #login{
+        font-size: 40px;
+        font-weight: bolder;
+        color: white;
+        margin-bottom: 15px;
+    }
+
+    #username{
+        margin-bottom: 15px;
+        background-color: white;
+        border-radius: 15px;
+        width: 300px;
+        height: 30px;
+    }
+
+    #username1{
+        height: 30px;
+        width: 260px;
+        border: 0px;
+        outline: none;
+        background-color: white;
+        border-radius: 15px;
+    }
+
+    #password{
+        margin-bottom: 15px;
+        background-color: white;
+        border-radius: 15px;
+        width: 300px;
+    }
+
+    #password1{
+        height: 30px;
+        width: 260px;
+        border: 0px;
+        outline: none;
+        background-color: white;
+        border-radius: 15px;
+    }
+
+
+    #Rememberforgot{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center ;
+    }
+
+    #login1{
+        height: 35px;
+        width: 250px;
+        border: 0px;
+        border-radius: 20px;
+        outline: none;
+    }
+
+    #login1:hover{
+        background-color: black;
+        color: white;
+    }
+
+    #login1:active{
+        background-color: white;
+        color: black;
+    }
+
+    #register1{
+        text-decoration: none;
+    }
+
+    #forgot{
+        text-decoration: none;
+        color: black;
+    }
+
+    #account{
+        text-decoration: none;
+        color: black;
+    }
